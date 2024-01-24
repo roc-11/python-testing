@@ -38,4 +38,4 @@ class Student:
         if response.ok:
             return response.text
         else:
-            return "Something went wrong with the request!"
+            return "Something went wrong"
